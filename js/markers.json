@@ -1,0 +1,44 @@
+markers = [
+   {
+     "name": "trs Reinigung GmbH - Münchnen - upratovanie kancelárii",
+     "url": "http://trs.de/ueberuns.html",
+     "lat": 48.135125,
+     "lng": 11.581980
+   },
+   {
+     "name": "Franziska Stolle GmbH - Brenz - práca v hydinárni",
+     "url": "https://www.stolle.de/ueber-uns/betriebe/brenz/",
+     "lat": 53.391108,
+     "lng": 11.634379
+   },
+   {
+     "name": "MAPA Slovakia Digital, s.r.o. - Bratislava, Nitra - GIS konzultant",
+     "url": "http://www.mapadigital.sk/o-spolocnosti",
+     "lat": 48.133385,
+     "lng": 17.219484
+   },
+   {
+     "name": "Tatra banka a.s.,DIALOG Live - Nitra - operátor",
+     "url": "https://www.tatrabanka.sk/sk/personal/ucet-platby/elektronicke-bankovnictvo/dialog.html",
+     "lat": 48.309346,
+     "lng": 18.081778
+   },
+   {
+     "name": "Ateliér Dobrucká, s.r.o. - Nitra - GIS špecialista",
+     "url": "http://www.atelier-dobrucka.sk/index.html",
+     "lat": 48.332493,
+     "lng": 18.087208
+   },
+   {
+     "name": "Oblastná organizácia cestovného ruchu Región GRON - GIS konzultant",
+     "url": "https://regiongron.sk/kontakt/",
+     "lat": 48.484729,
+     "lng": 18.718730
+   },
+   {
+     "name": "O.Z. Cyklovňa - spracovanie kartografických podkladov pre tvorbu mapy singletrackov - pro bono",
+     "url": "https://www.facebook.com/cyklovna/",
+     "lat": 49.320719,
+     "lng": 20.692819
+   },
+];

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CV</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <!--map settings-->
+    <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+
+    <script type='text/javascript' src='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js'></script>
+
+<!--fade-->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="intro">
+            <div class="intro-text" data-aos="fade-up">
+                <h1 data-aos="fade-down" data-aos-duration="600">print 'Hello, world!'<br> <span class="name" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">name = raw_input('Peter Fridrich')</span></h1>
+                <p>GIS Technik | Junior Front End Developer</p>
+
+                <a href="#about"> <i data-aos="fade-up" class="fas fa-chevron-circle-down fa-3x"></i></a>
+            </div>
+        </div>
+
+    </header>
+
+<!--navigation-->
+    <div class="topnav" id="myTopnav">
+        <a href="#header" class="active">Domov</a>
+        <a href="#about">Intro</a>
+        <a href="#skills">Skills</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#map">Mapa</a>
+        <a href="#contact">Kontakt</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    </div>
+
+
+<!--about section-->
+    <section id="about">
+        <div class="container">
+            <h2>Niečo o mne</h2>
+            <hr>
+            <div data-aos="fade-down">
+                <img class="circular--square" src="img/pf.jpeg">
+            </div>
+            <p data-aos="fade-down">Even though using "lorem ipsum" often arouses curiosity due to its resemblance to classical Latin, it is not intended to have meaning. Where text is visible in a document, people tend to focus on the textual content rather than upon overall presentation, so publishers use lorem ipsum when displaying a typeface or design in order to direct the focus to presentation. "Lorem ipsum" also approximates a typical distribution of letters in English.</p>
+            <p>
+                <a data-aos="fade-up" href="#" class="button">Stiahnuť CV
+                    <i class="fa fa-download">
+                        </i>
+                    </a>
+            </p>
+        </div>
+    </section>
+<!--skills section-->
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <h2>Skills</h2>
+                <hr>
+                <div class="col-2">
+                    <div class="progress">
+                        <div class="bar">
+                            <div style="min-width: 40%;" data-aos="fade-right">HTML<span>40%</span></div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar">
+                            <div style="min-width: 40%;" data-aos="fade-right">CSS<span>40%</span></div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar">
+                            <div style="min-width: 20%;" data-aos="fade-right">LESS<span>20%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="progress">
+                        <div class="bar">
+                            <div style="min-width: 25%;" data-aos="fade-right">Javascript<span>25%</span></div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar">
+                            <div style="min-width: 75%;" data-aos="fade-right">GIS<span>75%</span></div>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="bar">
+                            <div style="min-width: 20%;" data-aos="fade-right">ArcPY<span>20%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--timeline section-->
+    <section id="timeline">
+        <h2>Skúsenosti</h2>
+        <hr>
+        <div class="timeline">
+            <div class="container left" data-aos="fade-down-right" data-aos-duration="1000">
+                <div class="content">
+                    <h4 data-aos="fade-down-right" data-aos-duration="1000">MAPA Slovakia Digital | 04/2016 - súčastnosť </h4>
+                    <h3 data-aos="fade-down-right" data-aos-delay="500">GIS konzultant</h3>
+                    <p>&bull; Tvorba a plenenie kontraktov so zákazníkmi a subdodávateľmi<br> &bull; Projektové riadenie vybraných IT projektov (<a href="https://mobec.sk/liptovskyhradok#vup" target="_blank">GIS</a>, <a href="https://mobec.sk/plevnikdrienove#pasport" target="_blank">pasportizácia mobilným mapovaním</a>)<br> &bull; Príprava dát pre rôzne mapové varianty v prostredí Open Source GIS (QGIS)<br> &bull; Komunikácia, starostlivosť o pridelených zákazníkov.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="container right" data-aos="fade-down-left" data-aos-duration="1000">
+                <div class="content">
+                    <h4 data-aos="fade-down-left" data-aos-duration="1000">Ateliér Dobrucká | 04/2015 - 02/2016</h4>
+                    <h3 data-aos="fade-down-left" data-aos-delay="500">GIS analytik - študentská stáž</h3>
+                    <p>&bull; Aktualizácia dokumentu - MÚSES - Miestný systém ekologickej stability mesta Trnava<br> &bull; Analýzy v prostredí ArcMAP - aktualizácia veľkosti plôch zelene, atribútové a priestorové dotazovanie<br></p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="container left" data-aos="fade-down-right" data-aos-duration="1000">
+                <div class="content">
+                    <h4 data-aos="fade-down-right" data-aos-duration="1000">Tatra banka | 04/2014 - 12/2014</h4>
+                    <h3 data-aos="fade-down-right" data-aos-delay="500">Operátor predaja</h3>
+                    <p>&bull;Predaj bankových produktov<br> &bull;Servis klientov banky<br>
+                </div>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="container right" data-aos="fade-down-left" data-aos-duration="1000">
+                <div class="content">
+                    <h4 data-aos="fade-down-left" data-aos-duration="1000">TRS Reinigung, Mníchov | 07/2012,2013 - 08/2012,2013</h4>
+                    <h3 data-aos="fade-down-left" data-aos-delay="500">Letná brigáda</h3>
+                    <p>&bull; Upratovanie kancelárii, obchodov, materských škôlok</p>
+                </div>
+            </div>
+        </div>
+
+
+        <h2>Vzdelanie</h2>
+        <hr>
+        <div class="timeline">
+            <div class="container right" data-aos="fade-down-left" data-aos-duration="1000">
+                <div class="content">
+                    <h4 data-aos="fade-down-left" data-aos-duration="1000">IT v kurze | 03/2018 - súčastnosť </h4>
+                    <h3 data-aos="fade-down-left" data-aos-delay="500">Front-End Developer</h3>
+                    <p>&bull; Školenie zamerané na front-end (HTML5, CSS3, JS)<br> &bull; CSS preprocesor LESS<br> &bull; Základy JS-knižnice JQuery<br>
+                </div>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="container left" data-aos="fade-down-right" data-aos-duration="1000">
+                <div class="content">
+                    <h4 data-aos="fade-down-right" data-aos-duration="1000">Language Planet Nitra | 07/2017 - 02/2018 </h4>
+                    <h3 data-aos="fade-down-right" data-aos-delay="500">Anglický jazyk</h3>
+                    <p>&bull; Direct method for English</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="container right" data-aos="fade-down-left" data-aos-duration="1000">
+                <div class="content">
+                    <h4 data-aos="fade-down-left" data-aos-duration="1000"> Univerzita Konštantína Filozofa - FPV | 09/2009 - 05/2015</h4>
+                    <h3 data-aos="fade-down-left" data-aos-delay="500">Geografia a regionálny rozvoj</h3>
+                    <p>&bull; Diplomová práca zameraná na kvalitu ovzdušia v regiónoch SR</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="container left" data-aos="fade-down-right" data-aos-duration="1000">
+                <div class="content">
+                    <h4 data-aos="fade-down-right" data-aos-duration="1000">Gymnázium Ivana Bellu - Handlová | 09/2005 - 05/2009</h4>
+                    <h3 data-aos="fade-down-right" data-aos-delay="500">Všeobecno-vzdelávacia stredná škola</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio section-->
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <hr>
+        </div>
+        <ul class="ch-grid">
+            <li>
+                <div class="ch-item ch-img-1" data-aos="fade-down-right" data-aos-duration="1000">
+                    <div class="ch-info">
+                        <a href="#">
+                            <h3>GIS</h3>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ch-item ch-img-2" data-aos="fade-down" data-aos-duration="1000">
+                    <div class="ch-info">
+                        <a href="#">
+                            <h3>Front-End</h3>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ch-item ch-img-3" data-aos="fade-down-left" data-aos-duration="1000">
+                    <div class="ch-info">
+                        <a href="#">
+                            <h3>VOLUNTEER</h3>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ch-item ch-img-4" data-aos="fade-up-right" data-aos-duration="1000">
+                    <div class="ch-info">
+                        <a href="#">
+                            <h3>BIKE</h3>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ch-item ch-img-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="ch-info">
+                        <a href="#">
+                            <h3>HIKING</h3>
+                        </a>
+                    </div>
+                </div>
+        </ul>
+
+    </section>
+    <!--
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="#">
+                    <img src="img/imgrounfg.png" width="500" height="400"></a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="#">
+                        <img src="img/imgrounfg.png" style="width:100%"></a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+            <div class="responsive" class="center">
+                <div class="gallery">
+                     <a target="_blank" href="#">
+                         <img src="img/imgrounfg.png" style="width:100%"></a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+        </div>-->
+
+
+<!--map-->
+    <div id="map" style="height: 520px; width: 100%; style=" border:0> </div>
+
+<!--contact-->
+    <section id="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <hr>
+        </div>
+        <div class="container group">
+
+			<form action="#" class="pull-left">
+				<input type="text" name="name" placeholder="Meno" required>
+				<input type="text" name="email" placeholder="Email" required>
+
+				<textarea name="message" placeholder="Správa" rows="4"></textarea>
+
+				<input type="submit" class="button" value="Poslať">
+				<input type="reset" class="button alt" value="Reset">
+			</form>
+
+            <div class="features pull-left">
+				<div class="group">
+					<address>
+						<h3 class="fa fa-home">Adresa</h3>
+						<p>
+							Kozmonautov 7<br>
+							949 01 Nitra<br>
+						</p>
+                 </address>
+
+
+
+						<h3 class="fa fa-comment">Weby</h3>
+						<p>
+							<a href="https://github.com/FridrichPeter" target="_blank">GitHub</a><br>
+							<a href="https://www.linkedin.com/in/peter-fridrich-451b4690/" target="_blank">LinkedIn</a><br>
+                            <a href="https://www.youtube.com/playlist?list=LLiNt03NMuFGCy5HPkTRDX7w" target="_blank">YouTube</a><br>
+
+						</p>
+
+
+                    </div>
+                <div class="group">
+
+						<h3 class="fa fa-envelope">Email</h3>
+						<p>
+							<a href="mailto:pfridrich1@gmail.com">pfridrich1@gmail.com</a>
+						</p>
+
+
+						<h3 class="fa fa-phone">Phone</h3>
+						<p>
+							+421 948 677 966
+						</p>
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+    </section>
+
+
+
+    <footer>
+        <a class="btn btn-up" class="fa fa-circle-up" href="#"><i class="fa fa-chevron-circle-up fa-lg"></i></a>
+        <div id="footer">
+            <div class="container text-center">
+                <div class="fnav">
+                    <p>2018 | Peter Fridrich | Powered by <a href="https://www.itvkurze.sk">IT v kurze</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!--fade-->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+
+    </script>
+
+    <!--map-->
+    <script type='text/javascript' src='js/markers.json'></script>
+    <script type='text/javascript' src='js/leaf-demo.js'></script>
+
+
+    <!--sticky nav-->
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("myTopnav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+
+    <!--responsive nav-->
+    <!--<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>-->
+
+</body>
+
+</html>
